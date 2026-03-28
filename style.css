@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 @font-face {
-   font-family: "android";
+   font-family: "idroid";
    src: url("../fonte/idroid.otf") format("opentype");
 
 }
@@ -17,7 +17,7 @@
 
    --fonte-padrao: arial, verdana, helvetica, sans-serif;
    --fonte-destaque: 'Bebas Neue', cursive;
-   --fonte-android: "android ", cursive;
+   --fonte-idroid: "idroid ", cursive;
 
 
 
@@ -121,7 +121,7 @@ main p {
 
 main h1 {
    color: var(--cor5);
-   font-family: var(--fonte-android);
+   font-family: var(--fonte-idroid);
    font-weight: normal;
    font-size: 1.8em;
 
@@ -159,7 +159,7 @@ div.video>iframe {
 
 
 main h2 {
-   font-family: var(--fonte-android);
+   font-family: var(--fonte-idroid);
    color: var(--cor4);
    font-size: 1.3em;
    background-image: linear-gradient(to right, var(--cor1), transparent);
